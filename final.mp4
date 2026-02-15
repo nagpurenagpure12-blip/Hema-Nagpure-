@@ -1,0 +1,1 @@
+ffmpeg -i result.mp4 -vf subtitles=voice.srt final.mp4
