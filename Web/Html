@@ -1,0 +1,6 @@
+<select id="character">
+  <option>News Anchor</option>
+  <option>Teacher</option>
+  <option>Motivational Coach</option>
+  <option>Taylor AI</option>
+</select>
