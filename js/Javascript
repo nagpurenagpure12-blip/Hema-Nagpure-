@@ -1,0 +1,4 @@
+function applyCharacter() {
+  let c = document.getElementById("character").value;
+  alert("Character Style: " + c + " applied");
+}
