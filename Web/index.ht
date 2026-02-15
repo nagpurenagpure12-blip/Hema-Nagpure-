@@ -1,0 +1,8 @@
+<h3>AI Video Engine</h3>
+
+<input id="scenes" placeholder="Number of scenes (5-20)">
+<button onclick="generateScenes()">Generate Scenes</button>
+
+<button onclick="createSlideshow()">Export Video</button>
+
+<video id="finalVideo" controls></video>
