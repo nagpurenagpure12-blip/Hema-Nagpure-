@@ -1,0 +1,5 @@
+python inference.py \
+--checkpoint_path checkpoints/wav2lip.pth \
+--face avatar.jpg \
+--audio voice.wav \
+--outfile result.mp4
