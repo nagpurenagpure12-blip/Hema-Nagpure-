@@ -1,0 +1,1 @@
+function generateImages(){let text=document.getElementById("story").value;let url="https://image.pollinations.ai/prompt/"+text;document.getElementById("output").innerHTML="<img src='"+url+"' width='400'>";}function generateVoice(){let text=document.getElementById("story").value;let msg=new SpeechSynthesisUtterance(text);speechSynthesis.speak(msg);}
