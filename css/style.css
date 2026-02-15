@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Arial';
+  background: linear-gradient(135deg,#ff4ecd,#38bdf8,#22c55e);
+  color: white;
+}
+
+.header {
+  text-align: center;
+  padding: 30px;
+}
+
+.card {
+  width: 80%;
+  margin: auto;
+  background: rgba(0,0,0,0.3);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+textarea {
+  width: 90%;
+  height: 120px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+select, button {
+  margin: 10px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  background: #facc15;
+  cursor: pointer;
+}
+
+#output img {
+  margin-top: 20px;
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.profile-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
